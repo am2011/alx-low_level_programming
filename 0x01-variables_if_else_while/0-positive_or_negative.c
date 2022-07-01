@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Entry Point
+ * main Entry Point
  *
  * Rturn: Always 0 (Success)
  */
