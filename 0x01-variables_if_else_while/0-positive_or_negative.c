@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 
-/** 
-* main - Entry Point
-* 
-* Return: Always 0 (Success)
-*/
+ /** 
+  * main - Entry Point
+  * 
+  * Return: Always 0 (Success)
+  */
 
 int main(void)
 {
@@ -25,5 +25,5 @@ else
 {
 printf("%d is zero\n", n);
 }
-return (0);
+ return(0);
 }
