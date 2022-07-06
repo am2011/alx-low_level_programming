@@ -15,7 +15,7 @@ int pld;
 
 
 
-Pld = (nld % 10);
+pld = (nld % 10);
 
 
 
