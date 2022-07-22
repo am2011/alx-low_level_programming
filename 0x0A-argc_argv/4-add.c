@@ -9,6 +9,7 @@
 int check_num(char *a)
 {
 	int i, num, len;
+
 	i = 0;
 	num = 0;
 	len = strlen(a);
@@ -33,6 +34,7 @@ int check_num(char *a)
 int main(int argc, char *argv[])
 {
 	int i, num, res;
+
 	res = 0;
 	for (i = 1; i < argc; i++)
 	{
