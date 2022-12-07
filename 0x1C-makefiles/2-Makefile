@@ -1,9 +1,9 @@
 CC=gcc
 SRC=school.c main.c
 OBJ=$(SRC:.c=.o)
-	NAME=school
+NAME=school
 
-all: $(SRC) $(NAME)
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
-$(NAME): $(OBJ)
-	$(CC) -Wall -Werror -Wextra -pedantic $(OBJ) -o $@
+
